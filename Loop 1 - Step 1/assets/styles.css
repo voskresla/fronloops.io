@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(133, 165, 212);
+  font-family: Roboto;
+}
+
+.component-loop1-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  max-width: 900px;
+  border-radius: 4px;
+  box-shadow: 0 22px 50px rgba(14,21,47, .2), 0 8px 20px rgba(14,21,47, .2);
+  margin: 80px auto;
+  
+}
+
+.component-loop1-wrapper .item {
+  max-width: 33.3%;
+  min-width: 200px;
+  text-align: center;
+  padding: 20px 0px;
+  border-radius: 8px;
+}
+
+.component-loop1-wrapper .item:hover {
+  background-color: rgba(0,0,0,0.03);
+  cursor: pointer;
+}
+
+.component-loop1-wrapper .item h2 {
+  font-weight: 700;
+  color: rgb(85, 114, 214);
+  flex-grow: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  font-size: 1.1rem;
+  padding-top: 20px;
+}
+
+.component-loop1-wrapper .item p {
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: rgb(179, 179, 179);
+  max-width: 73%;
+  margin: auto;
+  padding-bottom: 20px;
+  line-height: 1.3rem
+}
+
+.item svg {
+  min-width: 60px;
+  min-height: 60px
+}
+
+.item span {
+  color: rgb(85, 114, 214);
+}
+
+.item sup {
+  font-size: .83rem;
+  line-height: 0.5rem;
+  vertical-align: baseline;
+  position: relative;
+  top: -0.8rem;
+  color: rgb(85, 114, 214);
+}
+
+.item .price_value {
+  font-size: 2rem;
+}
